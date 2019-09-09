@@ -26,6 +26,8 @@ class PetsController < ApplicationController
     @owners = Owner.all
     erb :'/pets/show'
   end
+  
+  
 
   patch '/pets/:id' do 
 
